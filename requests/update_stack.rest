@@ -1,0 +1,14 @@
+
+PUT http://localhost:3001/api/stacks/5fba999ea2f24d04409a986b
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjVmYjkyMGZmMjc2OTAyNjE0NDFkM2UzZSIsImlhdCI6MTYwNjA2NDQ2NX0.Yb8ULpxD6_6dnlGFxUvSX4IqZXrfHitYN6sILe4qAEc
+
+{
+      "stack": "stack2",
+      "flashcard": {
+            "hint": "hint24",
+            "answer": "answer24",
+            "plusses": 2,
+            "minuses": 2
+      }
+}

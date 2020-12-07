@@ -1,0 +1,2 @@
+DELETE http://localhost:3001/api/stacks/5fb7fc1146adb460ac7047c2
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1BS0UiLCJpZCI6IjVmYjY5NjAwZWNkMmJjNTgxODE3MmY3YiIsImlhdCI6MTYwNTgwMTQ3OX0.74Olx0nPak7Svj-UKikoaSx6vcHC7sG1pgGsZAdhQRE

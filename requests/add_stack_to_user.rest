@@ -1,0 +1,14 @@
+
+POST http://localhost:3001/api/stacks
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjVmYjkyMGZmMjc2OTAyNjE0NDFkM2UzZSIsImlhdCI6MTYwNjA2NDQ2NX0.Yb8ULpxD6_6dnlGFxUvSX4IqZXrfHitYN6sILe4qAEc
+
+{
+      "stack": "stack1",
+      "flashcard": {
+            "hint": "hint1",
+            "answer": "answer1",
+            "plusses": 1,
+            "minuses": 2
+      }
+}
