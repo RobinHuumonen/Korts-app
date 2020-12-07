@@ -12,7 +12,7 @@ const SignUp = () => {
   return (
        <p className="text">Don't have an account?
        {" "}
-       <LinkButton className="pink-box-button" onClick={handleClick} text="Sign up" to="/signup"/>
+       <LinkButton className="pink-box-button" onClick={handleClick} text="Sign Up" to="/signup"/>
       </p>
    
   )
