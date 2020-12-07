@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './index.css'
 
 import {
-  BrowserRouter  as Router,
+  HashRouter  as Router,
   Switch, Route, Redirect
 } from "react-router-dom"
 
