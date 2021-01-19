@@ -16,8 +16,10 @@ import LogInPage from './components/LogIn/LogInPage'
 import HomePage from './components/Home/HomePage'
 
 const App = () => {
+  useEffect(() => {
+    document.title = "Korts"
+ }, []);
   const dispatch = useDispatch()
-
   useEffect(() => {
     dispatch(initUser())
   }, [dispatch])
